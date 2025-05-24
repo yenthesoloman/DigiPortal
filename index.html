@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DigiPortal English Learning</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>DigiPortal English Learning</h1>
+        <label for="scenario">Choose a scenario:</label>
+        <select id="scenario">
+            <option value="greeting">Greeting</option>
+            <option value="restaurant">Ordering at a restaurant</option>
+            <option value="shopping">Shopping</option>
+            <option value="custom">Custom</option>
+        </select>
+        <textarea id="customText" placeholder="Describe your custom scenario" rows="4" style="display:none;"></textarea>
+        <button id="speakBtn">Speak</button>
+        <div id="conversation"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
